@@ -43,7 +43,7 @@
         <!-- Spinner End -->
 
         <!-- Header Start -->
-          <div class="container-fluid bg-dark px-0">
+          <div class="container-fluid bg-dark px-0 fixed-top" >
             <div class="row gx-0">
                 <div class="col-lg-3 bg-dark d-none d-lg-block">
                     <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
@@ -87,7 +87,7 @@
                                 <a href="room.html" class="nav-item nav-link active">Rooms</a>
                                 <a href="booking.html" class="nav-item nav-link">Booking</a>
                                 <a href="team.html" class="nav-item nav-link">Our Team</a>
-                                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
+<!--                                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>-->
                                 <a href="contact.html" class="nav-item nav-link">Contact US</a>
                     </nav>
                 </div>
@@ -190,10 +190,13 @@
                             <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                             <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                         </div>
-                        <p class="text-body mb-3">Our Junior Suite offers a perfect blend of comfort and style, featuring: 3 spacious bedrooms, 2 luxurious bathrooms, and Complimentary high-speed Wi-Fi. Ideal for small groups or families, this suite provides a cozy yet elegant retreat for your stay.</p>
+                        <p class="text-body mb-3">Our Junior Suite offers a perfect blend of comfort and style,
+                            featuring: 3 spacious bedrooms, 2 luxurious bathrooms,
+                            and Complimentary high-speed Wi-Fi. Ideal for small groups or
+                            families, this suite provides a cozy yet elegant retreat for your stay.</p>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-sm btn-primary rounded py-2 px-4" onclick="toggleDetails('details1')">View Detail</button>
-                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.html">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -231,10 +234,11 @@
                             <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                             <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                         </div>
-                        <p class="text-body mb-3">Designed for those who appreciate extra space and sophistication, the Executive Suite includes 3 elegantly designed bedrooms, 2 modern bathrooms, and high-speed Wi-Fi for convenience. Perfect for business travelers or those seeking an upscale experience.</p>
+                        <p class="text-body mb-3">Designed for those who appreciate extra space and sophistication, the Executive Suite includes 3 elegantly designed bedrooms, 2 modern bathrooms, and high-speed Wi-Fi for convenience. Perfect for business travelers or
+                            those seeking an upscale experience.</p>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-sm btn-primary rounded py-2 px-4" onclick="toggleDetails('details2')">View Detail</button>
-                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.html">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +279,7 @@
                         <p class="text-body mb-3">Our most lavish option, the Super Deluxe Suite offers 3 expansive bedrooms, 2 opulent bathrooms, and complimentary Wi-Fi access. Experience ultimate luxury and relaxation in this spacious and beautifully appointed suite, featuring premium amenities and exquisite decor.</p>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-sm btn-primary rounded py-2 px-4" onclick="toggleDetails('details3')">View Detail</button>
-                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.html">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -297,38 +301,47 @@
 
 
         <!-- Testimonial Start -->
-        <div class="container-xxl testimonial mt-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s" style="margin-bottom: 90px;">
+        <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="owl-carousel testimonial-carousel py-5">
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                        <p>"Staying at Safari Havens was the best decision I made for my vacation. The blend of
+                            African culture and modern luxury made my stay unforgettable.
+                            The staff were incredibly hospitable, and the views were breathtaking.
+                            I will definitely come back!"</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpeg" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="fw-bold mb-1">John Mwangi, Nairobi, Kenya</h6>
+                                <small>Marketing Manager</small>
                             </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                        <p>"Safari Havens exceeded all my expectations. From the luxurious rooms
+                            to the excellent service, everything was top-notch. The attention to detail and
+                            the warm African hospitality made me feel right at home.
+                            I highly recommend it to anyone visiting!"</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpeg" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="fw-bold mb-1">Brian Otieno, Mombasa, Kenya</h6>
+                                <small>Software Engineer</small>
                             </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                        <p>"Safari Havens is truly a hidden gem. The combination of rich African heritage and
+                            modern amenities was amazing. The staff went above and beyond to make my stay comfortable,
+                            and I couldn't get enough of the beautiful surroundings.
+                            I can't wait to visit again!"</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpeg" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="fw-bold mb-1">Emma Williams, Sydney, Australia</h6>
+                                <small>Travel Blogger</small>
                             </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -364,17 +377,17 @@
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="bg-primary rounded p-4">
-                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">Hotelier</h1></a>
+                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">Safari Havens</h1></a>
                             <p class="text-white mb-0">
-								Download <a class="text-dark fw-medium" href="https://htmlcodex.com/hotel-html-template-pro">Hotelier – Premium Version</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
+								Discover, Relax and Unwind
 							</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>382, Nyamira, KENYA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+254 704 700 699</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@safarihavens.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -386,19 +399,18 @@
                         <div class="row gy-5 g-4">
                             <div class="col-md-6">
                                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
-                                <a class="btn btn-link" href="">About Us</a>
-                                <a class="btn btn-link" href="">Contact Us</a>
+                                <a class="btn btn-link" href="about.html">About Us</a>
+                                <a class="btn btn-link" href="contact.html">Contact Us</a>
                                 <a class="btn btn-link" href="">Privacy Policy</a>
                                 <a class="btn btn-link" href="">Terms & Condition</a>
-                                <a class="btn btn-link" href="">Support</a>
                             </div>
                             <div class="col-md-6">
                                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
-                                <a class="btn btn-link" href="">Food & Restaurant</a>
-                                <a class="btn btn-link" href="">Spa & Fitness</a>
-                                <a class="btn btn-link" href="">Sports & Gaming</a>
-                                <a class="btn btn-link" href="">Event & Party</a>
-                                <a class="btn btn-link" href="">GYM & Yoga</a>
+                                <a class="btn btn-link" href="service.html">Food & Restaurant</a>
+                                <a class="btn btn-link" href="service.html">Spa & Fitness</a>
+                                <a class="btn btn-link" href="service.html">Sports & Gaming</a>
+                                <a class="btn btn-link" href="service.html">Event & Party</a>
+                                <a class="btn btn-link" href="service">GYM & Yoga</a>
                             </div>
                         </div>
                     </div>
@@ -408,14 +420,12 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            &copy; <a class="border-bottom" href="#">Safari Havens</a>, All Right Reserved.
+							Designed By <a class="border-bottom" href="#">ByteBinder</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
+                                <a href="index.html">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="">Help</a>
                                 <a href="">FQAs</a>
@@ -446,16 +456,16 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script>
-        function toggleDetails(id) {
-            const detailsRow = document.getElementById(id);
-            if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
-                detailsRow.style.display = "block";
-            } else {
-                detailsRow.style.display = "none";
-            }
-        }
-    </script>
+<script>
+function toggleDetails(detailId) {
+    const details = document.getElementById(detailId);
+    if (details.style.display === "none" || details.style.display === "") {
+        details.style.display = "block"; // Show the details
+    } else {
+        details.style.display = "none"; // Hide the details
+    }
+}
+</script>
 
 </body>
 
